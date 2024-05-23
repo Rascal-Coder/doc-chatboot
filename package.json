@@ -1,7 +1,13 @@
 {
   "name": "doc-chatboot",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "langchain openai doc-chatboot rag",
+  "author": {
+    "name": "Rascal-Coder",
+    "email": "meno.qiqio@gmail.com",
+    "url": "https://github.com/Rascal-Coder"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -14,6 +20,7 @@
     "update-pkg": "ras update-pkg",
     "prepare": "simple-git-hooks"
   },
+  "packageManager": "pnpm@8.10.2",
   "license": "MIT",
   "dependencies": {
     "@rascal/utils": "workspace:*",
